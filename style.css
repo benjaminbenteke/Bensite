@@ -1,0 +1,58 @@
+body{
+	background: gray;
+	color :white;
+}
+a{
+color: black;	
+}
+h1{
+	font-family: monospace;
+	font-size: 20pt;
+}
+ /** customize the link **/
+a:hover{
+	color:red;
+	background:white;
+	text-decoration: none;
+}
+.greenlink:hover{
+	color: green;
+	background:gray;
+}
+ /** layout **/
+ .indent{
+ 	margin-left: 10px;
+ }
+ .gap_below{
+ 	margin-bottom: 25px;
+ }
+
+/** media queries **/
+
+ /**@media(min-width: 1000px){
+ 	body{
+ 		background: green;
+ 	}
+ }
+
+@media(min-width: 500px){
+ 	body{
+ 		background: red;
+ 	}
+ }
+ **/
+@media(min-width: 750px){
+	.responsive{
+		display: inline-block;
+		width: 200px;
+		bolder: 1px solid black;
+	}
+}
+
+@media(min-width: 1000px){
+	.responsive{
+		display: inline-block;
+		width: 200px;
+		bolder: 1px solid black;
+	}
+}
